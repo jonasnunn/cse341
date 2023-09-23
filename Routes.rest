@@ -1,0 +1,10 @@
+GET http://localhost:8080/contacts
+###
+GET http://localhost:8080/contacts/650df4b495991a4132b589ce
+###
+GET http://localhost:8080/contacts/650df4db3910d25073de66b9
+###
+GET http://localhost:8080/contacts/650df4e73910d25073de66ba
+
+###
+GET https://cse341-senp.onrender.com HTTP/1.1

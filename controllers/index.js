@@ -1,5 +1,5 @@
-const awesomeFunction = (req, res, next) => {
-    res.json('Elias Nunn');
-};
+// const awesomeFunction = (req, res, next) => {
+//     res.json('Elias Nunn');
+// };
 
-module.exports = { awesomeFunction }
+// module.exports = { awesomeFunction }
