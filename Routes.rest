@@ -40,3 +40,30 @@ GET https://cse341-senp.onrender.com/contacts
 
 ###
 GET https://cse341-senp.onrender.com/contacts/650df4e73910d25073de66ba
+
+### 
+POST https://cse341-senp.onrender.com/contacts
+content-type: application/json
+
+{
+    "firstName": "Jimmy",
+    "lastName": "Smith",
+    "email": "example@email.com",
+    "favoriteColor": "purple",
+    "birthday": "04/04/2021"
+}
+
+### PUT contact
+PUT https://cse341-senp.onrender.com/contacts/6516e7de679cb0f6d5e15965
+content-type: application/json
+
+{
+    "firstName": "Jimmy",
+    "lastName": "Smith",
+    "email": "jsmithy@email.com",
+    "favoriteColor": "gold",
+    "birthday": "04/04/2021"
+} 
+
+### Delete by id
+DELETE https://cse341-senp.onrender.com/contacts/6516f3f436d6182de11e4870
