@@ -6,7 +6,36 @@ GET http://localhost:8080/contacts/650df4db3910d25073de66b9
 ###
 GET http://localhost:8080/contacts/650df4e73910d25073de66ba
 
-###
+
+### Create new contact
+POST http://localhost:8080/contacts
+content-type: application/json
+
+{
+    "firstName": "Jimmy",
+    "lastName": "Smith",
+    "email": "example@email.com",
+    "favoriteColor": "purple",
+    "birthday": "04/04/2021"
+}
+
+### PUT contact
+PUT http://localhost:8080/contacts/6516e7de679cb0f6d5e15965
+content-type: application/json
+
+{
+    "firstName": "Joe",
+    "lastName": "Noon",
+    "email": "jnoon@email.com",
+    "favoriteColor": "gold",
+    "birthday": "1999-01-22"
+} 
+
+### Delete by id
+DELETE http://localhost:8080/contacts/6516e681d39162b769a98481
+
+
+### RENDER
 GET https://cse341-senp.onrender.com/contacts
 
 ###
