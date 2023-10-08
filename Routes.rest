@@ -53,6 +53,18 @@ content-type: application/json
     "birthday": "04/04/2021"
 }
 
+### 
+POST https://cse341-senp.onrender.com/contacts
+content-type: application/json
+
+{
+    "firstName": "Jimmy",
+    "lastName": "Smith",
+    "email": "example@email.com",
+    "favoriteColor": "purple",
+    "birthday": "04/04/2021"
+}
+
 ### PUT contact
 PUT https://cse341-senp.onrender.com/contacts/6516fda2fce5c10f72cca0f1
 content-type: application/json
