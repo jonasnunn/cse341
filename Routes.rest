@@ -32,7 +32,7 @@ content-type: application/json
 } 
 
 ### Delete by id
-DELETE http://localhost:8080/contacts/6516e681d39162b769a98481
+DELETE http://localhost:8080/contacts/6516fc14fce5c10f72cca0f0
 
 
 ### RENDER
@@ -54,7 +54,7 @@ content-type: application/json
 }
 
 ### PUT contact
-PUT https://cse341-senp.onrender.com/contacts/6516e7de679cb0f6d5e15965
+PUT https://cse341-senp.onrender.com/contacts/6516fda2fce5c10f72cca0f1
 content-type: application/json
 
 {
@@ -66,4 +66,4 @@ content-type: application/json
 } 
 
 ### Delete by id
-DELETE https://cse341-senp.onrender.com/contacts/6516f3f436d6182de11e4870
+DELETE https://cse341-senp.onrender.com/contacts/6516fda2fce5c10f72cca0f1
