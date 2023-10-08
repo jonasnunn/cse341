@@ -5,7 +5,7 @@
     "description": "My contacts",
     "version": "1.0.0"
   },
-  "host": "cse341-senp.onrender.com/",
+  "host": "cse341-senp.onrender.com",
   "basePath": "/",
   "schemes": [
     "http"
